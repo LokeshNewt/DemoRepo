@@ -1,0 +1,8 @@
+---
+applications:
+- name: ProductDetails
+  memory: 1024M
+  buildpack: java_buildpack
+  path: target/ProductDetails-0.0.1-SNAPSHOT.jar
+  host: ProductDetails-microservice-8763
+  domain: cfapps.io
